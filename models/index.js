@@ -4,7 +4,7 @@ const Vote = require('./Vote');
 const Comment = require('./Comment');
 
 //creates an association
-User.hasMany(Post, {
+User.hasMany(Post, { 
     foreignKey: 'user_id'
 })
 
